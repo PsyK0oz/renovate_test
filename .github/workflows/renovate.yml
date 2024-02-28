@@ -16,7 +16,7 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Update dependencies
+    - name: Cache dependencies
       uses: actions/cache@v3
       with:
         path: node_modules
